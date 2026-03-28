@@ -5,7 +5,7 @@ public class Subsequence {
     public static void main(String[] args) {
         Subsequence s = new Subsequence();
         Stack<Integer> stack = new Stack<>();
-        s.generateSubsequence(0, stack, new int[] {3,2,1});
+        s.generateSubsequence(0, stack, new int[] {3,2,1,3});
     }
 
     public void generateSubsequence(int idx, Stack<Integer> stack, int[] originalArray){
